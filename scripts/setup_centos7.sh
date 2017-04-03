@@ -12,3 +12,11 @@ yum -y install ntpdate
 ntpdate ntp.nict.jp
 timedatectl set-timezone Asia/Tokyo
 
+### edit /etc/chrony.conf
+# systemctl restart chronyd
+
+# systemctl restart crond
+# cat > /etc/hostname
+# host.domain
+# cat > /etc/hosts
+

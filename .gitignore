@@ -1,3 +1,4 @@
 .vagrant
 vm_work
 *.swp
+*.log
